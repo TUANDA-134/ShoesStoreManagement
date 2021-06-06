@@ -15,7 +15,7 @@ namespace ShoesStoreManagement.UI.UI_SanPham
 {
     public partial class FormThemSanPham : Form
     {
-
+        //co dieu gi sao khoog  nois cungf anh
         int pnlMauWidth, pnlMauHeight;
 
         List<ucSP> listucSP = new List<ucSP>();
@@ -56,7 +56,7 @@ namespace ShoesStoreManagement.UI.UI_SanPham
         public void SetlblMaGiay()
         {
             tbxMaGiay.Text = BLL_Giay.Instance.GetMa(((DTO_CBBLoaiGiay)cbbLoaiGiay.SelectedItem).ShoesTypeId);
-            //tbxMaGiay.ForeColor = Color.Black;
+            
         }
         private void FormSanPham_MaximumSizeChanged(object sender, EventArgs e)
         {

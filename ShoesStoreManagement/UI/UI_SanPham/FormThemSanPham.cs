@@ -44,7 +44,7 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             _NganChanTextChanged = true;
             SetCBBMaGiay();
             _NganChanTextChanged = false;
-        }
+        }//O day co cai nay ne
         public void SetCBBMaGiay()
         {
             cbbMaGiay.Items.Clear();

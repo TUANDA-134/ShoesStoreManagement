@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ShoesStoreManagement.UI.UI_SanPham
-{
+{//
     public partial class FormThongTin : Form
-    {
+    {//
         public FormThongTin(string maSp)
         {
             InitializeComponent();

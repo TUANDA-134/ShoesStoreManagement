@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ShoesStoreManagement.BLL;
 using ShoesStoreManagement.UI.UI_ThongBao;
-
+//
 namespace ShoesStoreManagement.UI.UI_SanPham
 {
     public partial class FormThemSanPham : Form

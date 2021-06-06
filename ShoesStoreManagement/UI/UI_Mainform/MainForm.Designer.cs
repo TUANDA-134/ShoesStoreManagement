@@ -51,7 +51,6 @@ namespace ShoesStoreManagement.UI
             this.btnMinScreen = new FontAwesome.Sharp.IconButton();
             this.btnMaxScreen = new FontAwesome.Sharp.IconButton();
             this.btnExitScreen = new FontAwesome.Sharp.IconButton();
-            this.btnHome = new FontAwesome.Sharp.IconButton();
             this.pnlShadow = new System.Windows.Forms.Panel();
             this.pnlDesktop = new System.Windows.Forms.Panel();
             this.pnlShow = new System.Windows.Forms.Panel();
@@ -82,9 +81,9 @@ namespace ShoesStoreManagement.UI
             this.pnl1.Controls.Add(this.pnlMenu);
             this.pnl1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnl1.Location = new System.Drawing.Point(0, 0);
-            this.pnl1.Margin = new System.Windows.Forms.Padding(2);
+            this.pnl1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.pnl1.Name = "pnl1";
-            this.pnl1.Size = new System.Drawing.Size(292, 1100);
+            this.pnl1.Size = new System.Drawing.Size(195, 704);
             this.pnl1.TabIndex = 0;
             // 
             // pnlMenu
@@ -99,18 +98,18 @@ namespace ShoesStoreManagement.UI
             this.pnlMenu.Controls.Add(this.btnTaiKhoan);
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
-            this.pnlMenu.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlMenu.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(294, 1100);
+            this.pnlMenu.Size = new System.Drawing.Size(196, 704);
             this.pnlMenu.TabIndex = 3;
             // 
             // pbxLogo
             // 
             this.pbxLogo.Image = global::ShoesStoreManagement.Properties.Resources.Logo_1;
-            this.pbxLogo.Location = new System.Drawing.Point(2, 0);
-            this.pbxLogo.Margin = new System.Windows.Forms.Padding(2);
+            this.pbxLogo.Location = new System.Drawing.Point(1, 0);
+            this.pbxLogo.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.pbxLogo.Name = "pbxLogo";
-            this.pbxLogo.Size = new System.Drawing.Size(290, 244);
+            this.pbxLogo.Size = new System.Drawing.Size(193, 156);
             this.pbxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbxLogo.TabIndex = 2;
             this.pbxLogo.TabStop = false;
@@ -126,11 +125,11 @@ namespace ShoesStoreManagement.UI
             this.btnKhachHang.IconColor = System.Drawing.Color.White;
             this.btnKhachHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKhachHang.Location = new System.Drawing.Point(0, 300);
-            this.btnKhachHang.Margin = new System.Windows.Forms.Padding(2);
+            this.btnKhachHang.Location = new System.Drawing.Point(0, 192);
+            this.btnKhachHang.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnKhachHang.Name = "btnKhachHang";
-            this.btnKhachHang.Padding = new System.Windows.Forms.Padding(8, 5, 0, 0);
-            this.btnKhachHang.Size = new System.Drawing.Size(292, 73);
+            this.btnKhachHang.Padding = new System.Windows.Forms.Padding(5, 3, 0, 0);
+            this.btnKhachHang.Size = new System.Drawing.Size(195, 47);
             this.btnKhachHang.TabIndex = 1;
             this.btnKhachHang.Text = "Khách Hàng";
             this.btnKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -148,11 +147,11 @@ namespace ShoesStoreManagement.UI
             this.btnThongKe.IconColor = System.Drawing.Color.White;
             this.btnThongKe.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThongKe.Location = new System.Drawing.Point(0, 691);
-            this.btnThongKe.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThongKe.Location = new System.Drawing.Point(0, 442);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Padding = new System.Windows.Forms.Padding(8, 5, 0, 0);
-            this.btnThongKe.Size = new System.Drawing.Size(292, 73);
+            this.btnThongKe.Padding = new System.Windows.Forms.Padding(5, 3, 0, 0);
+            this.btnThongKe.Size = new System.Drawing.Size(195, 47);
             this.btnThongKe.TabIndex = 1;
             this.btnThongKe.Text = "Thống Kê";
             this.btnThongKe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -170,11 +169,11 @@ namespace ShoesStoreManagement.UI
             this.btnSanPham.IconColor = System.Drawing.Color.White;
             this.btnSanPham.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSanPham.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSanPham.Location = new System.Drawing.Point(0, 430);
-            this.btnSanPham.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSanPham.Location = new System.Drawing.Point(0, 275);
+            this.btnSanPham.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnSanPham.Name = "btnSanPham";
-            this.btnSanPham.Padding = new System.Windows.Forms.Padding(8, 5, 0, 0);
-            this.btnSanPham.Size = new System.Drawing.Size(292, 73);
+            this.btnSanPham.Padding = new System.Windows.Forms.Padding(5, 3, 0, 0);
+            this.btnSanPham.Size = new System.Drawing.Size(195, 47);
             this.btnSanPham.TabIndex = 1;
             this.btnSanPham.Text = "Sản Phẩm";
             this.btnSanPham.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -192,11 +191,11 @@ namespace ShoesStoreManagement.UI
             this.btnNhanVien.IconColor = System.Drawing.Color.White;
             this.btnNhanVien.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNhanVien.Location = new System.Drawing.Point(0, 559);
-            this.btnNhanVien.Margin = new System.Windows.Forms.Padding(2);
+            this.btnNhanVien.Location = new System.Drawing.Point(0, 358);
+            this.btnNhanVien.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnNhanVien.Name = "btnNhanVien";
-            this.btnNhanVien.Padding = new System.Windows.Forms.Padding(8, 5, 0, 0);
-            this.btnNhanVien.Size = new System.Drawing.Size(292, 73);
+            this.btnNhanVien.Padding = new System.Windows.Forms.Padding(5, 3, 0, 0);
+            this.btnNhanVien.Size = new System.Drawing.Size(195, 47);
             this.btnNhanVien.TabIndex = 1;
             this.btnNhanVien.Text = "Nhân Viên";
             this.btnNhanVien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -214,11 +213,11 @@ namespace ShoesStoreManagement.UI
             this.btnTaiKhoan.IconColor = System.Drawing.Color.White;
             this.btnTaiKhoan.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnTaiKhoan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTaiKhoan.Location = new System.Drawing.Point(0, 820);
-            this.btnTaiKhoan.Margin = new System.Windows.Forms.Padding(2);
+            this.btnTaiKhoan.Location = new System.Drawing.Point(0, 525);
+            this.btnTaiKhoan.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnTaiKhoan.Name = "btnTaiKhoan";
-            this.btnTaiKhoan.Padding = new System.Windows.Forms.Padding(8, 5, 0, 0);
-            this.btnTaiKhoan.Size = new System.Drawing.Size(292, 73);
+            this.btnTaiKhoan.Padding = new System.Windows.Forms.Padding(5, 3, 0, 0);
+            this.btnTaiKhoan.Size = new System.Drawing.Size(195, 47);
             this.btnTaiKhoan.TabIndex = 1;
             this.btnTaiKhoan.Text = "Tài Khoản";
             this.btnTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -230,12 +229,11 @@ namespace ShoesStoreManagement.UI
             // 
             this.pnlTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
             this.pnlTitle.Controls.Add(this.tlplTop);
-            this.pnlTitle.Controls.Add(this.btnHome);
             this.pnlTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTitle.Location = new System.Drawing.Point(0, 0);
-            this.pnlTitle.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlTitle.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.pnlTitle.Name = "pnlTitle";
-            this.pnlTitle.Size = new System.Drawing.Size(1508, 155);
+            this.pnlTitle.Size = new System.Drawing.Size(1005, 99);
             this.pnlTitle.TabIndex = 1;
             this.pnlTitle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlTitle_MouseDown);
             // 
@@ -244,17 +242,16 @@ namespace ShoesStoreManagement.UI
             this.tlplTop.ColumnCount = 3;
             this.tlplTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.54902F));
             this.tlplTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.45098F));
-            this.tlplTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 232F));
+            this.tlplTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 155F));
             this.tlplTop.Controls.Add(this.lblTitle, 1, 0);
             this.tlplTop.Controls.Add(this.tlplThongTinTaiKhoanTong, 0, 0);
             this.tlplTop.Controls.Add(this.tlplButtonTop, 2, 0);
             this.tlplTop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlplTop.Location = new System.Drawing.Point(0, 0);
-            this.tlplTop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tlplTop.Name = "tlplTop";
             this.tlplTop.RowCount = 1;
             this.tlplTop.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlplTop.Size = new System.Drawing.Size(1508, 155);
+            this.tlplTop.Size = new System.Drawing.Size(1005, 99);
             this.tlplTop.TabIndex = 5;
             // 
             // lblTitle
@@ -264,10 +261,10 @@ namespace ShoesStoreManagement.UI
             this.lblTitle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTitle.Font = new System.Drawing.Font("Times New Roman", 25.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(723, 0);
-            this.lblTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTitle.Location = new System.Drawing.Point(481, 0);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(550, 155);
+            this.lblTitle.Size = new System.Drawing.Size(367, 99);
             this.lblTitle.TabIndex = 4;
             this.lblTitle.Text = "Home     ";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -275,34 +272,32 @@ namespace ShoesStoreManagement.UI
             // tlplThongTinTaiKhoanTong
             // 
             this.tlplThongTinTaiKhoanTong.ColumnCount = 2;
-            this.tlplThongTinTaiKhoanTong.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tlplThongTinTaiKhoanTong.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
             this.tlplThongTinTaiKhoanTong.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlplThongTinTaiKhoanTong.Controls.Add(this.tlplThongTin, 1, 0);
             this.tlplThongTinTaiKhoanTong.Controls.Add(this.pbxAnh, 0, 0);
             this.tlplThongTinTaiKhoanTong.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlplThongTinTaiKhoanTong.Location = new System.Drawing.Point(4, 5);
-            this.tlplThongTinTaiKhoanTong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tlplThongTinTaiKhoanTong.Location = new System.Drawing.Point(3, 3);
             this.tlplThongTinTaiKhoanTong.Name = "tlplThongTinTaiKhoanTong";
             this.tlplThongTinTaiKhoanTong.RowCount = 1;
             this.tlplThongTinTaiKhoanTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlplThongTinTaiKhoanTong.Size = new System.Drawing.Size(713, 145);
+            this.tlplThongTinTaiKhoanTong.Size = new System.Drawing.Size(474, 93);
             this.tlplThongTinTaiKhoanTong.TabIndex = 5;
             // 
             // tlplThongTin
             // 
             this.tlplThongTin.ColumnCount = 1;
             this.tlplThongTin.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlplThongTin.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tlplThongTin.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlplThongTin.Controls.Add(this.lblTen, 0, 0);
             this.tlplThongTin.Controls.Add(this.lblChucVu, 0, 1);
             this.tlplThongTin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlplThongTin.Location = new System.Drawing.Point(154, 5);
-            this.tlplThongTin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tlplThongTin.Location = new System.Drawing.Point(103, 3);
             this.tlplThongTin.Name = "tlplThongTin";
             this.tlplThongTin.RowCount = 2;
             this.tlplThongTin.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.62963F));
             this.tlplThongTin.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.37037F));
-            this.tlplThongTin.Size = new System.Drawing.Size(555, 135);
+            this.tlplThongTin.Size = new System.Drawing.Size(368, 87);
             this.tlplThongTin.TabIndex = 1;
             // 
             // lblTen
@@ -311,10 +306,9 @@ namespace ShoesStoreManagement.UI
             this.lblTen.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTen.Font = new System.Drawing.Font("Times New Roman", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTen.ForeColor = System.Drawing.Color.Aqua;
-            this.lblTen.Location = new System.Drawing.Point(4, 0);
-            this.lblTen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTen.Location = new System.Drawing.Point(3, 0);
             this.lblTen.Name = "lblTen";
-            this.lblTen.Size = new System.Drawing.Size(547, 67);
+            this.lblTen.Size = new System.Drawing.Size(362, 43);
             this.lblTen.TabIndex = 1;
             this.lblTen.Text = " ";
             this.lblTen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -325,20 +319,18 @@ namespace ShoesStoreManagement.UI
             this.lblChucVu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblChucVu.Font = new System.Drawing.Font("Times New Roman", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChucVu.ForeColor = System.Drawing.Color.Aqua;
-            this.lblChucVu.Location = new System.Drawing.Point(4, 67);
-            this.lblChucVu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblChucVu.Location = new System.Drawing.Point(3, 43);
             this.lblChucVu.Name = "lblChucVu";
-            this.lblChucVu.Size = new System.Drawing.Size(547, 68);
+            this.lblChucVu.Size = new System.Drawing.Size(362, 44);
             this.lblChucVu.TabIndex = 0;
             this.lblChucVu.Text = " ";
             // 
             // pbxAnh
             // 
             this.pbxAnh.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pbxAnh.Location = new System.Drawing.Point(4, 5);
-            this.pbxAnh.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbxAnh.Location = new System.Drawing.Point(3, 3);
             this.pbxAnh.Name = "pbxAnh";
-            this.pbxAnh.Size = new System.Drawing.Size(142, 135);
+            this.pbxAnh.Size = new System.Drawing.Size(94, 87);
             this.pbxAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxAnh.TabIndex = 2;
             this.pbxAnh.TabStop = false;
@@ -347,16 +339,15 @@ namespace ShoesStoreManagement.UI
             // 
             this.tlplButtonTop.ColumnCount = 1;
             this.tlplButtonTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlplButtonTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tlplButtonTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlplButtonTop.Controls.Add(this.panel1, 0, 0);
             this.tlplButtonTop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlplButtonTop.Location = new System.Drawing.Point(1279, 5);
-            this.tlplButtonTop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tlplButtonTop.Location = new System.Drawing.Point(852, 3);
             this.tlplButtonTop.Name = "tlplButtonTop";
             this.tlplButtonTop.RowCount = 2;
             this.tlplButtonTop.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44.82759F));
             this.tlplButtonTop.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 55.17241F));
-            this.tlplButtonTop.Size = new System.Drawing.Size(225, 145);
+            this.tlplButtonTop.Size = new System.Drawing.Size(150, 93);
             this.tlplButtonTop.TabIndex = 6;
             // 
             // panel1
@@ -365,10 +356,9 @@ namespace ShoesStoreManagement.UI
             this.panel1.Controls.Add(this.btnMaxScreen);
             this.panel1.Controls.Add(this.btnExitScreen);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(4, 5);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(217, 55);
+            this.panel1.Size = new System.Drawing.Size(144, 35);
             this.panel1.TabIndex = 0;
             // 
             // btnMinScreen
@@ -378,10 +368,10 @@ namespace ShoesStoreManagement.UI
             this.btnMinScreen.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
             this.btnMinScreen.IconColor = System.Drawing.Color.CornflowerBlue;
             this.btnMinScreen.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnMinScreen.Location = new System.Drawing.Point(16, 0);
-            this.btnMinScreen.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMinScreen.Location = new System.Drawing.Point(9, 0);
+            this.btnMinScreen.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnMinScreen.Name = "btnMinScreen";
-            this.btnMinScreen.Size = new System.Drawing.Size(67, 55);
+            this.btnMinScreen.Size = new System.Drawing.Size(45, 35);
             this.btnMinScreen.TabIndex = 3;
             this.btnMinScreen.UseVisualStyleBackColor = true;
             this.btnMinScreen.Click += new System.EventHandler(this.btnMinScreen_Click);
@@ -393,10 +383,10 @@ namespace ShoesStoreManagement.UI
             this.btnMaxScreen.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
             this.btnMaxScreen.IconColor = System.Drawing.Color.CornflowerBlue;
             this.btnMaxScreen.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnMaxScreen.Location = new System.Drawing.Point(83, 0);
-            this.btnMaxScreen.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMaxScreen.Location = new System.Drawing.Point(54, 0);
+            this.btnMaxScreen.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnMaxScreen.Name = "btnMaxScreen";
-            this.btnMaxScreen.Size = new System.Drawing.Size(67, 55);
+            this.btnMaxScreen.Size = new System.Drawing.Size(45, 35);
             this.btnMaxScreen.TabIndex = 3;
             this.btnMaxScreen.UseVisualStyleBackColor = true;
             this.btnMaxScreen.Click += new System.EventHandler(this.btnMaxScreen_Click);
@@ -408,46 +398,23 @@ namespace ShoesStoreManagement.UI
             this.btnExitScreen.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
             this.btnExitScreen.IconColor = System.Drawing.Color.CornflowerBlue;
             this.btnExitScreen.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnExitScreen.Location = new System.Drawing.Point(150, 0);
-            this.btnExitScreen.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExitScreen.Location = new System.Drawing.Point(99, 0);
+            this.btnExitScreen.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnExitScreen.Name = "btnExitScreen";
-            this.btnExitScreen.Size = new System.Drawing.Size(67, 55);
+            this.btnExitScreen.Size = new System.Drawing.Size(45, 35);
             this.btnExitScreen.TabIndex = 3;
             this.btnExitScreen.UseVisualStyleBackColor = true;
             this.btnExitScreen.Click += new System.EventHandler(this.btnExitScreen_Click);
-            // 
-            // btnHome
-            // 
-            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
-            this.btnHome.FlatAppearance.BorderSize = 0;
-            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.btnHome.IconChar = FontAwesome.Sharp.IconChar.Home;
-            this.btnHome.IconColor = System.Drawing.Color.CornflowerBlue;
-            this.btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHome.IconSize = 60;
-            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(0, 0);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(2);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnHome.Size = new System.Drawing.Size(286, 155);
-            this.btnHome.TabIndex = 2;
-            this.btnHome.Text = "Home";
-            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnHome.UseVisualStyleBackColor = false;
             // 
             // pnlShadow
             // 
             this.pnlShadow.BackColor = System.Drawing.Color.Black;
             this.pnlShadow.Controls.Add(this.pnlTitle);
             this.pnlShadow.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlShadow.Location = new System.Drawing.Point(292, 0);
-            this.pnlShadow.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlShadow.Location = new System.Drawing.Point(195, 0);
+            this.pnlShadow.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.pnlShadow.Name = "pnlShadow";
-            this.pnlShadow.Size = new System.Drawing.Size(1508, 152);
+            this.pnlShadow.Size = new System.Drawing.Size(1005, 97);
             this.pnlShadow.TabIndex = 2;
             // 
             // pnlDesktop
@@ -456,10 +423,10 @@ namespace ShoesStoreManagement.UI
             this.pnlDesktop.Controls.Add(this.pnlShow);
             this.pnlDesktop.Controls.Add(this.pbxMenu);
             this.pnlDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlDesktop.Location = new System.Drawing.Point(292, 152);
-            this.pnlDesktop.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlDesktop.Location = new System.Drawing.Point(195, 97);
+            this.pnlDesktop.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.pnlDesktop.Name = "pnlDesktop";
-            this.pnlDesktop.Size = new System.Drawing.Size(1508, 948);
+            this.pnlDesktop.Size = new System.Drawing.Size(1005, 607);
             this.pnlDesktop.TabIndex = 3;
             // 
             // pnlShow
@@ -467,8 +434,9 @@ namespace ShoesStoreManagement.UI
             this.pnlShow.BackColor = System.Drawing.Color.Ivory;
             this.pnlShow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlShow.Location = new System.Drawing.Point(0, 0);
+            this.pnlShow.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlShow.Name = "pnlShow";
-            this.pnlShow.Size = new System.Drawing.Size(1508, 948);
+            this.pnlShow.Size = new System.Drawing.Size(1005, 607);
             this.pnlShow.TabIndex = 1;
             this.pnlShow.Visible = false;
             // 
@@ -477,23 +445,24 @@ namespace ShoesStoreManagement.UI
             this.pbxMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbxMenu.Image = global::ShoesStoreManagement.Properties.Resources.River;
             this.pbxMenu.Location = new System.Drawing.Point(0, 0);
+            this.pbxMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbxMenu.Name = "pbxMenu";
-            this.pbxMenu.Size = new System.Drawing.Size(1508, 948);
+            this.pbxMenu.Size = new System.Drawing.Size(1005, 607);
             this.pbxMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxMenu.TabIndex = 0;
             this.pbxMenu.TabStop = false;
             // 
             // Mainform
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1800, 1100);
+            this.ClientSize = new System.Drawing.Size(1200, 704);
             this.Controls.Add(this.pnlDesktop);
             this.Controls.Add(this.pnlShadow);
             this.Controls.Add(this.pnl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.MinimizeBox = false;
             this.Name = "Mainform";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -529,7 +498,6 @@ namespace ShoesStoreManagement.UI
         private FontAwesome.Sharp.IconButton btnSanPham;
         private FontAwesome.Sharp.IconButton btnThongKe;
         private FontAwesome.Sharp.IconButton btnNhanVien;
-        private FontAwesome.Sharp.IconButton btnHome;
         private FontAwesome.Sharp.IconButton btnTaiKhoan;
         private System.Windows.Forms.Panel pnlTitle;
         private System.Windows.Forms.Panel pnlShadow;

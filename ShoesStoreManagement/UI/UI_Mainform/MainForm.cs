@@ -91,8 +91,7 @@ namespace ShoesStoreManagement.UI
                 leftBorderBtn.Visible = true;
                 leftBorderBtn.BringToFront();
                 //Current Child Form Icon
-                btnHome.IconChar = currentBtn.IconChar;
-                btnHome.Text = currentBtn.Text;
+                
                 //Title
                 lblTitle.Text = currentBtn.Text;
                 //panelTitle.BackColor = color;

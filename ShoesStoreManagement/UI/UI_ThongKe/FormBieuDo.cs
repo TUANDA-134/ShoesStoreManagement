@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//
 namespace ShoesStoreManagement.UI.UI_ThongKe
 {
     public partial class FormBieuDo : Form
@@ -20,7 +20,7 @@ namespace ShoesStoreManagement.UI.UI_ThongKe
             setGUI();
             
         }
-
+        //
         public void setGUI()
         {
             cbbDThu.Items.Add("2019");

@@ -12,6 +12,7 @@ using System.Windows.Forms;
 
 namespace ShoesStoreManagement.UI.UI_SanPham
 {
+    //
     public partial class FormAddSanPham : Form
     {
         List<string> mauSac = new List<string>();
@@ -26,8 +27,6 @@ namespace ShoesStoreManagement.UI.UI_SanPham
         public FormAddSanPham()
         {
             InitializeComponent();
-            //SaveSizePicture();
-
             ketQua = BLL_Giay.Instance.TimKiem(mauSac, size, "", 0, "", "","");
             int m = ketQua.Count;
             Random rng = new Random();
@@ -52,9 +51,6 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             {
                 cbxLoaiGiay.Items.Add(i);
             }
-            //cbxLoaiGiay.SelectedIndex = 0;
-            //cbxHang.SelectedIndex = 0;
-            //cbxMucGia.SelectedIndex = 0;
         }
         private Form currentChildForm;
         public void SetListMau(object sender, string s)

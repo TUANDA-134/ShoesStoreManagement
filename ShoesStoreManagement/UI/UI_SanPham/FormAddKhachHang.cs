@@ -15,10 +15,11 @@ namespace ShoesStoreManagement.UI.UI_Customer
 {
     public partial class FormAddKhachHang : Form
     {
-
+        //
         public static int count = 0;
         public delegate void MyDelAdd(Customer c);
         public MyDelAdd dAdd;
+        //
         public FormAddKhachHang()
         {
             InitializeComponent();

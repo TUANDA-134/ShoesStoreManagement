@@ -89,8 +89,6 @@ namespace ShoesStoreManagement.UI.UI_SanPham
                     }
                 }
             }
-            //d = kThuoc.Where(p => p.Size.Equals(n)).SingleOrDefault();
-            //if (d != null)
         }
         internal void SetTextBox(List<DTO_KichThuoc> kichThuoc)
         {
@@ -251,7 +249,7 @@ namespace ShoesStoreManagement.UI.UI_SanPham
                             }
                             else
                             {
-                                FormThongBao.Show(kThuocBanDau[j].SoLuong.ToString() + "" + kThuocCapNhat[i].SoLuong.ToString());
+                               // FormThongBao.Show(kThuocBanDau[j].SoLuong.ToString() + "" + kThuocCapNhat[i].SoLuong.ToString());
                                 string t = "Size " + kThuocCapNhat[i].Size.ToString() + " có số lượng sản phẩm xuất kho vượt số sản phẩm hiện tại";
                                 FormThongBao.Show(t);
                                 return;

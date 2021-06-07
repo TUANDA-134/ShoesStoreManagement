@@ -94,7 +94,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
                 txtSize.Text = s.size.ToString();
                 pBimage.ImageLocation = BLL_DuongDan.Instance.ImagePath() + s.detailShoeId + ".png";
             }
-
+            ///
+            ///
+            ///
 
         }
 

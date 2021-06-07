@@ -51,13 +51,12 @@ namespace ShoesStoreManagement.UI.UI_ThongBao
             this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(856, 368);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(570, 235);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // lblThongBao
@@ -66,10 +65,9 @@ namespace ShoesStoreManagement.UI.UI_ThongBao
             this.lblThongBao.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblThongBao.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThongBao.ForeColor = System.Drawing.Color.Red;
-            this.lblThongBao.Location = new System.Drawing.Point(4, 110);
-            this.lblThongBao.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblThongBao.Location = new System.Drawing.Point(3, 70);
             this.lblThongBao.Name = "lblThongBao";
-            this.lblThongBao.Size = new System.Drawing.Size(848, 184);
+            this.lblThongBao.Size = new System.Drawing.Size(564, 117);
             this.lblThongBao.TabIndex = 40;
             this.lblThongBao.Text = "Thong Bao";
             this.lblThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -79,10 +77,9 @@ namespace ShoesStoreManagement.UI.UI_ThongBao
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
             this.panel1.Controls.Add(this.lblTitle);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(4, 5);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(848, 100);
+            this.panel1.Size = new System.Drawing.Size(564, 64);
             this.panel1.TabIndex = 39;
             // 
             // lblTitle
@@ -90,10 +87,9 @@ namespace ShoesStoreManagement.UI.UI_ThongBao
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblTitle.Location = new System.Drawing.Point(326, 23);
-            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTitle.Location = new System.Drawing.Point(218, 23);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(211, 36);
+            this.lblTitle.Size = new System.Drawing.Size(132, 23);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "THÔNG BÁO";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -102,19 +98,17 @@ namespace ShoesStoreManagement.UI.UI_ThongBao
             // 
             this.panel2.Controls.Add(this.btnOk);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(4, 299);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel2.Location = new System.Drawing.Point(3, 190);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(848, 64);
+            this.panel2.Size = new System.Drawing.Size(564, 42);
             this.panel2.TabIndex = 41;
             // 
             // btnOk
             // 
             this.btnOk.Font = new System.Drawing.Font("Times New Roman", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOk.Location = new System.Drawing.Point(351, 3);
-            this.btnOk.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnOk.Location = new System.Drawing.Point(234, 2);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(144, 56);
+            this.btnOk.Size = new System.Drawing.Size(96, 36);
             this.btnOk.TabIndex = 42;
             this.btnOk.Text = "OK\r\n";
             this.btnOk.UseVisualStyleBackColor = true;
@@ -126,19 +120,17 @@ namespace ShoesStoreManagement.UI.UI_ThongBao
             this.panel3.Controls.Add(this.tableLayoutPanel1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(858, 370);
+            this.panel3.Size = new System.Drawing.Size(572, 237);
             this.panel3.TabIndex = 2;
             // 
             // FormThongBao
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(858, 370);
+            this.ClientSize = new System.Drawing.Size(572, 237);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormThongBao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormThongBao";

@@ -127,10 +127,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             "Balenciaga",
             "Converse",
             "Bitis"});
-            this.cbxHang.Location = new System.Drawing.Point(1268, 0);
-            this.cbxHang.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.cbxHang.Location = new System.Drawing.Point(844, 0);
+            this.cbxHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbxHang.Name = "cbxHang";
-            this.cbxHang.Size = new System.Drawing.Size(238, 81);
+            this.cbxHang.Size = new System.Drawing.Size(160, 54);
             this.cbxHang.TabIndex = 0;
             this.cbxHang.Text = "Hãng";
             // 
@@ -138,10 +138,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             this.pnlPicture.Controls.Add(this.tableLayoutPanel1);
             this.pnlPicture.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlPicture.Location = new System.Drawing.Point(0, 56);
-            this.pnlPicture.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pnlPicture.Location = new System.Drawing.Point(0, 36);
+            this.pnlPicture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlPicture.Name = "pnlPicture";
-            this.pnlPicture.Size = new System.Drawing.Size(1506, 1063);
+            this.pnlPicture.Size = new System.Drawing.Size(1004, 576);
             this.pnlPicture.TabIndex = 2;
             // 
             // tableLayoutPanel1
@@ -169,7 +169,7 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.tableLayoutPanel1.Controls.Add(this.lblPic6, 5, 4);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
@@ -177,7 +177,7 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.5F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1506, 1063);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1004, 576);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // pbxImage1
@@ -185,10 +185,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.pbxImage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pbxImage1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbxImage1.Image = ((System.Drawing.Image)(resources.GetObject("pbxImage1.Image")));
-            this.pbxImage1.Location = new System.Drawing.Point(79, 56);
-            this.pbxImage1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxImage1.Location = new System.Drawing.Point(53, 30);
+            this.pbxImage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxImage1.Name = "pbxImage1";
-            this.pbxImage1.Size = new System.Drawing.Size(353, 419);
+            this.pbxImage1.Size = new System.Drawing.Size(234, 226);
             this.pbxImage1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxImage1.TabIndex = 27;
             this.pbxImage1.TabStop = false;
@@ -199,10 +199,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.pbxImage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pbxImage2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbxImage2.Image = ((System.Drawing.Image)(resources.GetObject("pbxImage2.Image")));
-            this.pbxImage2.Location = new System.Drawing.Point(575, 56);
-            this.pbxImage2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxImage2.Location = new System.Drawing.Point(383, 30);
+            this.pbxImage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxImage2.Name = "pbxImage2";
-            this.pbxImage2.Size = new System.Drawing.Size(353, 419);
+            this.pbxImage2.Size = new System.Drawing.Size(234, 226);
             this.pbxImage2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxImage2.TabIndex = 28;
             this.pbxImage2.TabStop = false;
@@ -213,10 +213,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.pbxImage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pbxImage3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbxImage3.Image = ((System.Drawing.Image)(resources.GetObject("pbxImage3.Image")));
-            this.pbxImage3.Location = new System.Drawing.Point(1071, 56);
-            this.pbxImage3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxImage3.Location = new System.Drawing.Point(713, 30);
+            this.pbxImage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxImage3.Name = "pbxImage3";
-            this.pbxImage3.Size = new System.Drawing.Size(353, 419);
+            this.pbxImage3.Size = new System.Drawing.Size(234, 226);
             this.pbxImage3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxImage3.TabIndex = 29;
             this.pbxImage3.TabStop = false;
@@ -227,10 +227,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.pbxImage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pbxImage4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbxImage4.Image = ((System.Drawing.Image)(resources.GetObject("pbxImage4.Image")));
-            this.pbxImage4.Location = new System.Drawing.Point(79, 560);
-            this.pbxImage4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxImage4.Location = new System.Drawing.Point(53, 303);
+            this.pbxImage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxImage4.Name = "pbxImage4";
-            this.pbxImage4.Size = new System.Drawing.Size(353, 419);
+            this.pbxImage4.Size = new System.Drawing.Size(234, 226);
             this.pbxImage4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxImage4.TabIndex = 32;
             this.pbxImage4.TabStop = false;
@@ -241,10 +241,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.pbxImage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pbxImage5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbxImage5.Image = ((System.Drawing.Image)(resources.GetObject("pbxImage5.Image")));
-            this.pbxImage5.Location = new System.Drawing.Point(575, 560);
-            this.pbxImage5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxImage5.Location = new System.Drawing.Point(383, 303);
+            this.pbxImage5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxImage5.Name = "pbxImage5";
-            this.pbxImage5.Size = new System.Drawing.Size(353, 419);
+            this.pbxImage5.Size = new System.Drawing.Size(234, 226);
             this.pbxImage5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxImage5.TabIndex = 33;
             this.pbxImage5.TabStop = false;
@@ -255,10 +255,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.pbxImage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pbxImage6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbxImage6.Image = ((System.Drawing.Image)(resources.GetObject("pbxImage6.Image")));
-            this.pbxImage6.Location = new System.Drawing.Point(1071, 560);
-            this.pbxImage6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxImage6.Location = new System.Drawing.Point(713, 303);
+            this.pbxImage6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxImage6.Name = "pbxImage6";
-            this.pbxImage6.Size = new System.Drawing.Size(353, 419);
+            this.pbxImage6.Size = new System.Drawing.Size(234, 226);
             this.pbxImage6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxImage6.TabIndex = 34;
             this.pbxImage6.TabStop = false;
@@ -269,10 +269,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.lblPic2.AutoSize = true;
             this.lblPic2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblPic2.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPic2.Location = new System.Drawing.Point(575, 478);
-            this.lblPic2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPic2.Location = new System.Drawing.Point(383, 258);
             this.lblPic2.Name = "lblPic2";
-            this.lblPic2.Size = new System.Drawing.Size(353, 79);
+            this.lblPic2.Size = new System.Drawing.Size(234, 43);
             this.lblPic2.TabIndex = 36;
             this.lblPic2.Text = "pic2";
             this.lblPic2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -282,10 +281,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.lblPic1.AutoSize = true;
             this.lblPic1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblPic1.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPic1.Location = new System.Drawing.Point(79, 478);
-            this.lblPic1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPic1.Location = new System.Drawing.Point(53, 258);
             this.lblPic1.Name = "lblPic1";
-            this.lblPic1.Size = new System.Drawing.Size(353, 79);
+            this.lblPic1.Size = new System.Drawing.Size(234, 43);
             this.lblPic1.TabIndex = 35;
             this.lblPic1.Text = "pic1";
             this.lblPic1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -295,10 +293,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.lblPic3.AutoSize = true;
             this.lblPic3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblPic3.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPic3.Location = new System.Drawing.Point(1071, 478);
-            this.lblPic3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPic3.Location = new System.Drawing.Point(713, 258);
             this.lblPic3.Name = "lblPic3";
-            this.lblPic3.Size = new System.Drawing.Size(353, 79);
+            this.lblPic3.Size = new System.Drawing.Size(234, 43);
             this.lblPic3.TabIndex = 37;
             this.lblPic3.Text = "pic3";
             this.lblPic3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -308,10 +305,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.lblPic4.AutoSize = true;
             this.lblPic4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblPic4.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPic4.Location = new System.Drawing.Point(79, 982);
-            this.lblPic4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPic4.Location = new System.Drawing.Point(53, 531);
             this.lblPic4.Name = "lblPic4";
-            this.lblPic4.Size = new System.Drawing.Size(353, 81);
+            this.lblPic4.Size = new System.Drawing.Size(234, 45);
             this.lblPic4.TabIndex = 38;
             this.lblPic4.Text = "pic4";
             this.lblPic4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -321,10 +317,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.lblPic5.AutoSize = true;
             this.lblPic5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblPic5.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPic5.Location = new System.Drawing.Point(575, 982);
-            this.lblPic5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPic5.Location = new System.Drawing.Point(383, 531);
             this.lblPic5.Name = "lblPic5";
-            this.lblPic5.Size = new System.Drawing.Size(353, 81);
+            this.lblPic5.Size = new System.Drawing.Size(234, 45);
             this.lblPic5.TabIndex = 39;
             this.lblPic5.Text = "pic5";
             this.lblPic5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -334,10 +329,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.lblPic6.AutoSize = true;
             this.lblPic6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblPic6.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPic6.Location = new System.Drawing.Point(1071, 982);
-            this.lblPic6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPic6.Location = new System.Drawing.Point(713, 531);
             this.lblPic6.Name = "lblPic6";
-            this.lblPic6.Size = new System.Drawing.Size(353, 81);
+            this.lblPic6.Size = new System.Drawing.Size(234, 45);
             this.lblPic6.TabIndex = 40;
             this.lblPic6.Text = "pic6";
             this.lblPic6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -348,10 +342,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.pnlBottom.Controls.Add(this.btnNext);
             this.pnlBottom.Controls.Add(this.btnPrevious);
             this.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlBottom.Location = new System.Drawing.Point(0, 1119);
-            this.pnlBottom.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pnlBottom.Location = new System.Drawing.Point(0, 612);
+            this.pnlBottom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlBottom.Name = "pnlBottom";
-            this.pnlBottom.Size = new System.Drawing.Size(1506, 98);
+            this.pnlBottom.Size = new System.Drawing.Size(1004, 63);
             this.pnlBottom.TabIndex = 1;
             // 
             // btnNext
@@ -361,10 +355,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnNext.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.ForeColor = System.Drawing.Color.White;
-            this.btnNext.Location = new System.Drawing.Point(814, 10);
-            this.btnNext.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnNext.Location = new System.Drawing.Point(543, 6);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(338, 75);
+            this.btnNext.Size = new System.Drawing.Size(225, 48);
             this.btnNext.TabIndex = 4;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = false;
@@ -377,10 +371,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.btnPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPrevious.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrevious.ForeColor = System.Drawing.Color.White;
-            this.btnPrevious.Location = new System.Drawing.Point(370, 10);
-            this.btnPrevious.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnPrevious.Location = new System.Drawing.Point(247, 6);
+            this.btnPrevious.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPrevious.Name = "btnPrevious";
-            this.btnPrevious.Size = new System.Drawing.Size(338, 75);
+            this.btnPrevious.Size = new System.Drawing.Size(225, 48);
             this.btnPrevious.TabIndex = 3;
             this.btnPrevious.Text = "Previous";
             this.btnPrevious.UseVisualStyleBackColor = false;
@@ -394,9 +388,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.pnlTop.Controls.Add(this.cbxHang);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
-            this.pnlTop.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pnlTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(1506, 56);
+            this.pnlTop.Size = new System.Drawing.Size(1004, 36);
             this.pnlTop.TabIndex = 26;
             // 
             // cbxMucGia
@@ -413,10 +407,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             "150$ - 200$",
             "200$ - 250$",
             ">250$"});
-            this.cbxMucGia.Location = new System.Drawing.Point(590, 0);
-            this.cbxMucGia.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.cbxMucGia.Location = new System.Drawing.Point(390, 0);
+            this.cbxMucGia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbxMucGia.Name = "cbxMucGia";
-            this.cbxMucGia.Size = new System.Drawing.Size(306, 81);
+            this.cbxMucGia.Size = new System.Drawing.Size(205, 54);
             this.cbxMucGia.TabIndex = 2;
             this.cbxMucGia.Text = "Mức giá";
             // 
@@ -427,10 +421,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.cbxLoaiGiay.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxLoaiGiay.ForeColor = System.Drawing.Color.White;
             this.cbxLoaiGiay.FormattingEnabled = true;
-            this.cbxLoaiGiay.Location = new System.Drawing.Point(896, 0);
-            this.cbxLoaiGiay.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.cbxLoaiGiay.Location = new System.Drawing.Point(595, 0);
+            this.cbxLoaiGiay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbxLoaiGiay.Name = "cbxLoaiGiay";
-            this.cbxLoaiGiay.Size = new System.Drawing.Size(372, 81);
+            this.cbxLoaiGiay.Size = new System.Drawing.Size(249, 54);
             this.cbxLoaiGiay.TabIndex = 1;
             this.cbxLoaiGiay.Text = "Loại giày";
             // 
@@ -442,9 +436,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.panel1.Controls.Add(this.pnlMenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1923, 1217);
+            this.panel1.Size = new System.Drawing.Size(1282, 675);
             this.panel1.TabIndex = 27;
             // 
             // pnlMenu
@@ -454,10 +448,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.pnlMenu.Controls.Add(this.gbxSize);
             this.pnlMenu.Controls.Add(this.gbxMauSac);
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlMenu.Location = new System.Drawing.Point(1506, 0);
-            this.pnlMenu.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pnlMenu.Location = new System.Drawing.Point(1004, 0);
+            this.pnlMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(417, 1217);
+            this.pnlMenu.Size = new System.Drawing.Size(278, 675);
             this.pnlMenu.TabIndex = 0;
             // 
             // gbxTimKiem
@@ -470,11 +464,11 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.gbxTimKiem.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gbxTimKiem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxTimKiem.ForeColor = System.Drawing.Color.White;
-            this.gbxTimKiem.Location = new System.Drawing.Point(0, 750);
-            this.gbxTimKiem.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.gbxTimKiem.Location = new System.Drawing.Point(0, 480);
+            this.gbxTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbxTimKiem.Name = "gbxTimKiem";
-            this.gbxTimKiem.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.gbxTimKiem.Size = new System.Drawing.Size(417, 467);
+            this.gbxTimKiem.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gbxTimKiem.Size = new System.Drawing.Size(278, 195);
             this.gbxTimKiem.TabIndex = 17;
             this.gbxTimKiem.TabStop = false;
             this.gbxTimKiem.Text = "Thông tin tìm kiếm";
@@ -484,10 +478,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.tbxTenGiay.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.tbxTenGiay.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxTenGiay.ForeColor = System.Drawing.Color.Black;
-            this.tbxTenGiay.Location = new System.Drawing.Point(10, 115);
-            this.tbxTenGiay.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tbxTenGiay.Location = new System.Drawing.Point(7, 74);
+            this.tbxTenGiay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbxTenGiay.Name = "tbxTenGiay";
-            this.tbxTenGiay.Size = new System.Drawing.Size(397, 68);
+            this.tbxTenGiay.Size = new System.Drawing.Size(266, 46);
             this.tbxTenGiay.TabIndex = 7;
             // 
             // lblTenGiay
@@ -495,10 +489,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.lblTenGiay.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblTenGiay.AutoSize = true;
             this.lblTenGiay.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenGiay.Location = new System.Drawing.Point(4, 70);
-            this.lblTenGiay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTenGiay.Location = new System.Drawing.Point(3, 45);
             this.lblTenGiay.Name = "lblTenGiay";
-            this.lblTenGiay.Size = new System.Drawing.Size(192, 31);
+            this.lblTenGiay.Size = new System.Drawing.Size(119, 19);
             this.lblTenGiay.TabIndex = 6;
             this.lblTenGiay.Text = "Nhập tên giày :";
             // 
@@ -509,10 +502,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.btnTimKiem.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTimKiem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.ForeColor = System.Drawing.Color.White;
-            this.btnTimKiem.Location = new System.Drawing.Point(4, 383);
-            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnTimKiem.Location = new System.Drawing.Point(3, 141);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(409, 81);
+            this.btnTimKiem.Size = new System.Drawing.Size(272, 52);
             this.btnTimKiem.TabIndex = 5;
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = false;
@@ -523,10 +516,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.tbxMaGiay.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.tbxMaGiay.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxMaGiay.ForeColor = System.Drawing.Color.Black;
-            this.tbxMaGiay.Location = new System.Drawing.Point(10, 278);
-            this.tbxMaGiay.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tbxMaGiay.Location = new System.Drawing.Point(7, 178);
+            this.tbxMaGiay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbxMaGiay.Name = "tbxMaGiay";
-            this.tbxMaGiay.Size = new System.Drawing.Size(397, 68);
+            this.tbxMaGiay.Size = new System.Drawing.Size(266, 46);
             this.tbxMaGiay.TabIndex = 3;
             // 
             // lblMaGiay
@@ -534,10 +527,9 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.lblMaGiay.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblMaGiay.AutoSize = true;
             this.lblMaGiay.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaGiay.Location = new System.Drawing.Point(4, 230);
-            this.lblMaGiay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMaGiay.Location = new System.Drawing.Point(3, 147);
             this.lblMaGiay.Name = "lblMaGiay";
-            this.lblMaGiay.Size = new System.Drawing.Size(192, 31);
+            this.lblMaGiay.Size = new System.Drawing.Size(118, 19);
             this.lblMaGiay.TabIndex = 2;
             this.lblMaGiay.Text = "Nhập mã giày :";
             // 
@@ -563,11 +555,11 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.gbxSize.Dock = System.Windows.Forms.DockStyle.Top;
             this.gbxSize.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxSize.ForeColor = System.Drawing.Color.White;
-            this.gbxSize.Location = new System.Drawing.Point(0, 390);
-            this.gbxSize.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.gbxSize.Location = new System.Drawing.Point(0, 250);
+            this.gbxSize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbxSize.Name = "gbxSize";
-            this.gbxSize.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.gbxSize.Size = new System.Drawing.Size(417, 360);
+            this.gbxSize.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gbxSize.Size = new System.Drawing.Size(278, 230);
             this.gbxSize.TabIndex = 1;
             this.gbxSize.TabStop = false;
             this.gbxSize.Text = "Size";
@@ -577,10 +569,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button14.BackColor = System.Drawing.Color.SeaShell;
             this.button14.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.Color.Black;
-            this.button14.Location = new System.Drawing.Point(94, 258);
-            this.button14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button14.Location = new System.Drawing.Point(63, 165);
+            this.button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(66, 63);
+            this.button14.Size = new System.Drawing.Size(44, 40);
             this.button14.TabIndex = 16;
             this.button14.Text = "12";
             this.button14.UseVisualStyleBackColor = false;
@@ -591,10 +583,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button15.BackColor = System.Drawing.Color.SeaShell;
             this.button15.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.Color.Black;
-            this.button15.Location = new System.Drawing.Point(20, 258);
-            this.button15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button15.Location = new System.Drawing.Point(13, 165);
+            this.button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(66, 63);
+            this.button15.Size = new System.Drawing.Size(44, 40);
             this.button15.TabIndex = 15;
             this.button15.Text = "11.5";
             this.button15.UseVisualStyleBackColor = false;
@@ -605,10 +597,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button16.BackColor = System.Drawing.Color.SeaShell;
             this.button16.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.ForeColor = System.Drawing.Color.Black;
-            this.button16.Location = new System.Drawing.Point(318, 189);
-            this.button16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button16.Location = new System.Drawing.Point(212, 121);
+            this.button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(66, 63);
+            this.button16.Size = new System.Drawing.Size(44, 40);
             this.button16.TabIndex = 14;
             this.button16.Text = "11";
             this.button16.UseVisualStyleBackColor = false;
@@ -619,10 +611,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button17.BackColor = System.Drawing.Color.SeaShell;
             this.button17.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.ForeColor = System.Drawing.Color.Black;
-            this.button17.Location = new System.Drawing.Point(244, 189);
-            this.button17.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button17.Location = new System.Drawing.Point(163, 121);
+            this.button17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(66, 63);
+            this.button17.Size = new System.Drawing.Size(44, 40);
             this.button17.TabIndex = 13;
             this.button17.Text = "10.5";
             this.button17.UseVisualStyleBackColor = false;
@@ -633,10 +625,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button18.BackColor = System.Drawing.Color.SeaShell;
             this.button18.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.ForeColor = System.Drawing.Color.Black;
-            this.button18.Location = new System.Drawing.Point(170, 189);
-            this.button18.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button18.Location = new System.Drawing.Point(113, 121);
+            this.button18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(66, 63);
+            this.button18.Size = new System.Drawing.Size(44, 40);
             this.button18.TabIndex = 12;
             this.button18.Text = "10";
             this.button18.UseVisualStyleBackColor = false;
@@ -647,10 +639,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button19.BackColor = System.Drawing.Color.SeaShell;
             this.button19.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button19.ForeColor = System.Drawing.Color.Black;
-            this.button19.Location = new System.Drawing.Point(94, 189);
-            this.button19.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button19.Location = new System.Drawing.Point(63, 121);
+            this.button19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(66, 63);
+            this.button19.Size = new System.Drawing.Size(44, 40);
             this.button19.TabIndex = 11;
             this.button19.Text = "9.5";
             this.button19.UseVisualStyleBackColor = false;
@@ -661,10 +653,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button20.BackColor = System.Drawing.Color.SeaShell;
             this.button20.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.ForeColor = System.Drawing.Color.Black;
-            this.button20.Location = new System.Drawing.Point(20, 189);
-            this.button20.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button20.Location = new System.Drawing.Point(13, 121);
+            this.button20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(66, 63);
+            this.button20.Size = new System.Drawing.Size(44, 40);
             this.button20.TabIndex = 10;
             this.button20.Text = "9";
             this.button20.UseVisualStyleBackColor = false;
@@ -675,10 +667,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button6.BackColor = System.Drawing.Color.SeaShell;
             this.button6.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(318, 119);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button6.Location = new System.Drawing.Point(212, 76);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(66, 63);
+            this.button6.Size = new System.Drawing.Size(44, 40);
             this.button6.TabIndex = 9;
             this.button6.Text = "8.5";
             this.button6.UseVisualStyleBackColor = false;
@@ -689,10 +681,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button7.BackColor = System.Drawing.Color.SeaShell;
             this.button7.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.Black;
-            this.button7.Location = new System.Drawing.Point(244, 119);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button7.Location = new System.Drawing.Point(163, 76);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(66, 63);
+            this.button7.Size = new System.Drawing.Size(44, 40);
             this.button7.TabIndex = 8;
             this.button7.Text = "8";
             this.button7.UseVisualStyleBackColor = false;
@@ -703,10 +695,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button8.BackColor = System.Drawing.Color.SeaShell;
             this.button8.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(170, 119);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button8.Location = new System.Drawing.Point(113, 76);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(66, 63);
+            this.button8.Size = new System.Drawing.Size(44, 40);
             this.button8.TabIndex = 7;
             this.button8.Text = "7.5";
             this.button8.UseVisualStyleBackColor = false;
@@ -717,10 +709,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.button9.BackColor = System.Drawing.Color.SeaShell;
             this.button9.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.Black;
-            this.button9.Location = new System.Drawing.Point(94, 119);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button9.Location = new System.Drawing.Point(63, 76);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(66, 63);
+            this.button9.Size = new System.Drawing.Size(44, 40);
             this.button9.TabIndex = 6;
             this.button9.Text = "7";
             this.button9.UseVisualStyleBackColor = false;
@@ -731,10 +723,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.btn6_5.BackColor = System.Drawing.Color.SeaShell;
             this.btn6_5.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6_5.ForeColor = System.Drawing.Color.Black;
-            this.btn6_5.Location = new System.Drawing.Point(20, 119);
-            this.btn6_5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btn6_5.Location = new System.Drawing.Point(13, 76);
+            this.btn6_5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn6_5.Name = "btn6_5";
-            this.btn6_5.Size = new System.Drawing.Size(66, 63);
+            this.btn6_5.Size = new System.Drawing.Size(44, 40);
             this.btn6_5.TabIndex = 5;
             this.btn6_5.Text = "6.5";
             this.btn6_5.UseVisualStyleBackColor = false;
@@ -745,10 +737,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.btn6.BackColor = System.Drawing.Color.SeaShell;
             this.btn6.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.Color.Black;
-            this.btn6.Location = new System.Drawing.Point(318, 50);
-            this.btn6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btn6.Location = new System.Drawing.Point(212, 32);
+            this.btn6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(66, 63);
+            this.btn6.Size = new System.Drawing.Size(44, 40);
             this.btn6.TabIndex = 4;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
@@ -759,10 +751,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.btn5_5.BackColor = System.Drawing.Color.SeaShell;
             this.btn5_5.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5_5.ForeColor = System.Drawing.Color.Black;
-            this.btn5_5.Location = new System.Drawing.Point(244, 50);
-            this.btn5_5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btn5_5.Location = new System.Drawing.Point(163, 32);
+            this.btn5_5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn5_5.Name = "btn5_5";
-            this.btn5_5.Size = new System.Drawing.Size(66, 63);
+            this.btn5_5.Size = new System.Drawing.Size(44, 40);
             this.btn5_5.TabIndex = 3;
             this.btn5_5.Text = "5.5";
             this.btn5_5.UseVisualStyleBackColor = false;
@@ -773,10 +765,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.btn5.BackColor = System.Drawing.Color.SeaShell;
             this.btn5.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.Black;
-            this.btn5.Location = new System.Drawing.Point(170, 50);
-            this.btn5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btn5.Location = new System.Drawing.Point(113, 32);
+            this.btn5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(66, 63);
+            this.btn5.Size = new System.Drawing.Size(44, 40);
             this.btn5.TabIndex = 2;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
@@ -787,10 +779,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.btn4_5.BackColor = System.Drawing.Color.SeaShell;
             this.btn4_5.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4_5.ForeColor = System.Drawing.Color.Black;
-            this.btn4_5.Location = new System.Drawing.Point(94, 50);
-            this.btn4_5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btn4_5.Location = new System.Drawing.Point(63, 32);
+            this.btn4_5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn4_5.Name = "btn4_5";
-            this.btn4_5.Size = new System.Drawing.Size(66, 63);
+            this.btn4_5.Size = new System.Drawing.Size(44, 40);
             this.btn4_5.TabIndex = 1;
             this.btn4_5.Text = "4.5";
             this.btn4_5.UseVisualStyleBackColor = false;
@@ -801,10 +793,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.btn4.BackColor = System.Drawing.Color.SeaShell;
             this.btn4.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.Black;
-            this.btn4.Location = new System.Drawing.Point(20, 50);
-            this.btn4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btn4.Location = new System.Drawing.Point(13, 32);
+            this.btn4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(66, 63);
+            this.btn4.Size = new System.Drawing.Size(44, 40);
             this.btn4.TabIndex = 0;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
@@ -825,10 +817,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             this.gbxMauSac.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxMauSac.ForeColor = System.Drawing.Color.White;
             this.gbxMauSac.Location = new System.Drawing.Point(0, 0);
-            this.gbxMauSac.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.gbxMauSac.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbxMauSac.Name = "gbxMauSac";
-            this.gbxMauSac.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.gbxMauSac.Size = new System.Drawing.Size(417, 390);
+            this.gbxMauSac.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gbxMauSac.Size = new System.Drawing.Size(278, 250);
             this.gbxMauSac.TabIndex = 0;
             this.gbxMauSac.TabStop = false;
             this.gbxMauSac.Text = "Màu sắc";
@@ -837,10 +829,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             this.pbxTim.BackColor = System.Drawing.Color.Purple;
             this.pbxTim.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxTim.Location = new System.Drawing.Point(309, 302);
-            this.pbxTim.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxTim.Location = new System.Drawing.Point(206, 193);
+            this.pbxTim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxTim.Name = "pbxTim";
-            this.pbxTim.Size = new System.Drawing.Size(66, 62);
+            this.pbxTim.Size = new System.Drawing.Size(45, 40);
             this.pbxTim.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxTim.TabIndex = 8;
             this.pbxTim.TabStop = false;
@@ -850,10 +842,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             this.pbxTrang.BackColor = System.Drawing.Color.White;
             this.pbxTrang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxTrang.Location = new System.Drawing.Point(176, 302);
-            this.pbxTrang.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxTrang.Location = new System.Drawing.Point(117, 193);
+            this.pbxTrang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxTrang.Name = "pbxTrang";
-            this.pbxTrang.Size = new System.Drawing.Size(66, 62);
+            this.pbxTrang.Size = new System.Drawing.Size(45, 40);
             this.pbxTrang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxTrang.TabIndex = 7;
             this.pbxTrang.TabStop = false;
@@ -863,10 +855,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             this.pbxDen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.pbxDen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxDen.Location = new System.Drawing.Point(42, 302);
-            this.pbxDen.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxDen.Location = new System.Drawing.Point(28, 193);
+            this.pbxDen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxDen.Name = "pbxDen";
-            this.pbxDen.Size = new System.Drawing.Size(66, 62);
+            this.pbxDen.Size = new System.Drawing.Size(45, 40);
             this.pbxDen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxDen.TabIndex = 6;
             this.pbxDen.TabStop = false;
@@ -876,10 +868,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             this.pbxHong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.pbxHong.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxHong.Location = new System.Drawing.Point(309, 172);
-            this.pbxHong.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxHong.Location = new System.Drawing.Point(206, 110);
+            this.pbxHong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxHong.Name = "pbxHong";
-            this.pbxHong.Size = new System.Drawing.Size(66, 62);
+            this.pbxHong.Size = new System.Drawing.Size(45, 40);
             this.pbxHong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxHong.TabIndex = 5;
             this.pbxHong.TabStop = false;
@@ -889,10 +881,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             this.pbxCam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.pbxCam.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxCam.Location = new System.Drawing.Point(176, 172);
-            this.pbxCam.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxCam.Location = new System.Drawing.Point(117, 110);
+            this.pbxCam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxCam.Name = "pbxCam";
-            this.pbxCam.Size = new System.Drawing.Size(66, 62);
+            this.pbxCam.Size = new System.Drawing.Size(45, 40);
             this.pbxCam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxCam.TabIndex = 4;
             this.pbxCam.TabStop = false;
@@ -902,10 +894,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             this.pbxXanhDuong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.pbxXanhDuong.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxXanhDuong.Location = new System.Drawing.Point(42, 172);
-            this.pbxXanhDuong.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxXanhDuong.Location = new System.Drawing.Point(28, 110);
+            this.pbxXanhDuong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxXanhDuong.Name = "pbxXanhDuong";
-            this.pbxXanhDuong.Size = new System.Drawing.Size(66, 62);
+            this.pbxXanhDuong.Size = new System.Drawing.Size(45, 40);
             this.pbxXanhDuong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxXanhDuong.TabIndex = 3;
             this.pbxXanhDuong.TabStop = false;
@@ -915,10 +907,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             this.pbxXanhLaCay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.pbxXanhLaCay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxXanhLaCay.Location = new System.Drawing.Point(309, 50);
-            this.pbxXanhLaCay.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxXanhLaCay.Location = new System.Drawing.Point(206, 32);
+            this.pbxXanhLaCay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxXanhLaCay.Name = "pbxXanhLaCay";
-            this.pbxXanhLaCay.Size = new System.Drawing.Size(66, 62);
+            this.pbxXanhLaCay.Size = new System.Drawing.Size(45, 40);
             this.pbxXanhLaCay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxXanhLaCay.TabIndex = 2;
             this.pbxXanhLaCay.TabStop = false;
@@ -928,10 +920,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             this.pbxVang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.pbxVang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxVang.Location = new System.Drawing.Point(176, 50);
-            this.pbxVang.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxVang.Location = new System.Drawing.Point(117, 32);
+            this.pbxVang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxVang.Name = "pbxVang";
-            this.pbxVang.Size = new System.Drawing.Size(66, 62);
+            this.pbxVang.Size = new System.Drawing.Size(45, 40);
             this.pbxVang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxVang.TabIndex = 1;
             this.pbxVang.TabStop = false;
@@ -941,10 +933,10 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             this.pbxDo.BackColor = System.Drawing.Color.Maroon;
             this.pbxDo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxDo.Location = new System.Drawing.Point(42, 50);
-            this.pbxDo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pbxDo.Location = new System.Drawing.Point(28, 32);
+            this.pbxDo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxDo.Name = "pbxDo";
-            this.pbxDo.Size = new System.Drawing.Size(66, 62);
+            this.pbxDo.Size = new System.Drawing.Size(45, 40);
             this.pbxDo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxDo.TabIndex = 0;
             this.pbxDo.TabStop = false;
@@ -952,11 +944,11 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             // 
             // FormAddSanPham
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1923, 1217);
+            this.ClientSize = new System.Drawing.Size(1282, 675);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormAddSanPham";
             this.Text = "FormAddSanPham";
             this.pnlPicture.ResumeLayout(false);

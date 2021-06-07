@@ -19,12 +19,10 @@ namespace ShoesStoreManagement.UI.UI_TaiKhoan
         {
             InitializeComponent();
         }
-
         private void btnHuy_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
         private void btnDoiMatKhau_Click(object sender, EventArgs e)
         {
             if(tbxUsername.Text == "")

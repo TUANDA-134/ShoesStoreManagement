@@ -15,7 +15,7 @@ namespace ShoesStoreManagement.UI.UI_SanPham
     public partial class FormThongTin : Form
     {//
         public FormThongTin(string maSp)
-        {
+        {//
             InitializeComponent();
             DetailedSho thongTin = new DetailedSho();
             thongTin = BLL_Giay.Instance.GetDetailedShoes(maSp);

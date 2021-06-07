@@ -151,7 +151,7 @@ namespace ShoesStoreManagement.UI
             this.tbxTenGiay.ForeColor = System.Drawing.Color.Black;
             this.tbxTenGiay.Location = new System.Drawing.Point(8, 93);
             this.tbxTenGiay.Name = "tbxTenGiay";
-            this.tbxTenGiay.Size = new System.Drawing.Size(299, 68);
+            this.tbxTenGiay.Size = new System.Drawing.Size(299, 46);
             this.tbxTenGiay.TabIndex = 7;
             // 
             // lblTenGiay
@@ -161,7 +161,7 @@ namespace ShoesStoreManagement.UI
             this.lblTenGiay.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTenGiay.Location = new System.Drawing.Point(3, 56);
             this.lblTenGiay.Name = "lblTenGiay";
-            this.lblTenGiay.Size = new System.Drawing.Size(192, 31);
+            this.lblTenGiay.Size = new System.Drawing.Size(119, 19);
             this.lblTenGiay.TabIndex = 6;
             this.lblTenGiay.Text = "Nhập tên giày :";
             // 
@@ -187,7 +187,7 @@ namespace ShoesStoreManagement.UI
             this.tbxMaGiay.ForeColor = System.Drawing.Color.Black;
             this.tbxMaGiay.Location = new System.Drawing.Point(8, 223);
             this.tbxMaGiay.Name = "tbxMaGiay";
-            this.tbxMaGiay.Size = new System.Drawing.Size(299, 68);
+            this.tbxMaGiay.Size = new System.Drawing.Size(299, 46);
             this.tbxMaGiay.TabIndex = 3;
             // 
             // lblMaGiay
@@ -197,7 +197,7 @@ namespace ShoesStoreManagement.UI
             this.lblMaGiay.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMaGiay.Location = new System.Drawing.Point(3, 184);
             this.lblMaGiay.Name = "lblMaGiay";
-            this.lblMaGiay.Size = new System.Drawing.Size(192, 31);
+            this.lblMaGiay.Size = new System.Drawing.Size(118, 19);
             this.lblMaGiay.TabIndex = 2;
             this.lblMaGiay.Text = "Nhập mã giày :";
             // 
@@ -887,7 +887,7 @@ namespace ShoesStoreManagement.UI
             ">250$"});
             this.cbxMucGia.Location = new System.Drawing.Point(505, 0);
             this.cbxMucGia.Name = "cbxMucGia";
-            this.cbxMucGia.Size = new System.Drawing.Size(230, 81);
+            this.cbxMucGia.Size = new System.Drawing.Size(230, 54);
             this.cbxMucGia.TabIndex = 2;
             this.cbxMucGia.Text = "Mức giá";
             // 
@@ -900,7 +900,7 @@ namespace ShoesStoreManagement.UI
             this.cbxLoaiGiay.FormattingEnabled = true;
             this.cbxLoaiGiay.Location = new System.Drawing.Point(735, 0);
             this.cbxLoaiGiay.Name = "cbxLoaiGiay";
-            this.cbxLoaiGiay.Size = new System.Drawing.Size(280, 81);
+            this.cbxLoaiGiay.Size = new System.Drawing.Size(280, 54);
             this.cbxLoaiGiay.TabIndex = 1;
             this.cbxLoaiGiay.Text = "Loại giày";
             // 
@@ -920,7 +920,7 @@ namespace ShoesStoreManagement.UI
             "Bitis"});
             this.cbxHang.Location = new System.Drawing.Point(1015, 0);
             this.cbxHang.Name = "cbxHang";
-            this.cbxHang.Size = new System.Drawing.Size(180, 81);
+            this.cbxHang.Size = new System.Drawing.Size(180, 54);
             this.cbxHang.TabIndex = 0;
             this.cbxHang.Text = "Hãng";
             // 

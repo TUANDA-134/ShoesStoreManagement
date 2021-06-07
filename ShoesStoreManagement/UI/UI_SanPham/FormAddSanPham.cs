@@ -175,7 +175,7 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             n = n + 6;
             for (int i = n; i < n + 6; i++)
             {
-                SetPicBox(i);
+                SetPicBox1(i);
             }
 
             if (n + 6 >= ketQua.Count - 1)
@@ -269,6 +269,118 @@ namespace ShoesStoreManagement.UI.UI_SanPham
                 }
             }
         }
+        public void SetPicBox1(int i)
+        {
+
+            if (i % 6 == 0)
+            {
+                if (i < ketQua.Count)
+                {
+                    pbxImage1.Visible = true;
+                    pbxImage1.ImageLocation = BLL_DuongDan.Instance.ImagePath() + ketQua[i].detailedShoesId + ".png";
+                    lblPic1.Text = ketQua[i].detailedShoesId;
+                    pbxImage1.BackColor = Color.FromArgb(224, 224, 224);
+                }
+                else
+                {
+                    pbxImage1.Image = null;
+                    lblPic1.Text = "";
+                    pbxImage1.BackColor = Color.Silver;
+                    pbxImage1.Enabled = false;
+                }
+                //SetBorder(pbxImage1, lblPic1);
+            }
+            if (i % 6 == 1)
+            {
+                if (i < ketQua.Count)
+                {
+                    pbxImage2.ImageLocation = BLL_DuongDan.Instance.ImagePath() + ketQua[i].detailedShoesId + ".png";
+                    lblPic2.Text = ketQua[i].detailedShoesId;
+                    pbxImage2.BackColor = Color.FromArgb(224, 224, 224);
+                    pbxImage2.Visible = true;
+                }
+                else
+                {
+                    pbxImage2.Image = null;
+                    lblPic2.Text = "";
+                    pbxImage2.BackColor = Color.Silver;
+                    pbxImage2.Visible = false;
+                }
+                //SetBorder(pbxImage2, lblPic2);
+            }
+            if (i % 6 == 2)
+            {
+                if (i < ketQua.Count)
+                {
+                    pbxImage3.Visible = true;
+                    pbxImage3.ImageLocation = BLL_DuongDan.Instance.ImagePath() + ketQua[i].detailedShoesId + ".png";
+                    lblPic3.Text = ketQua[i].detailedShoesId;
+                    pbxImage3.BackColor = Color.FromArgb(224, 224, 224);
+                }
+                else
+                {
+                    pbxImage3.Image = null;
+                    lblPic3.Text = "";
+                    pbxImage3.BackColor = Color.Silver;
+                    pbxImage3.Visible = false;
+                }
+                //SetBorder(pbxImage3, lblPic3);
+            }
+            if (i % 6 == 3)
+            {
+                if (i < ketQua.Count)
+                {
+                    pbxImage4.Visible = true;
+                    pbxImage4.ImageLocation = BLL_DuongDan.Instance.ImagePath() + ketQua[i].detailedShoesId + ".png";
+                    lblPic4.Text = ketQua[i].detailedShoesId;
+                    pbxImage4.BackColor = Color.FromArgb(224, 224, 224);
+                }
+                else
+                {
+                    pbxImage4.Image = null;
+                    lblPic4.Text = "";
+                    pbxImage4.BackColor = Color.Silver;
+                    pbxImage4.Visible = false;
+                }
+                //SetBorder(pbxImage4, lblPic4);
+            }
+            if (i % 6 == 4)
+            {
+                if (i < ketQua.Count)
+                {
+                    pbxImage5.Visible = true;
+                    pbxImage5.ImageLocation = BLL_DuongDan.Instance.ImagePath() + ketQua[i].detailedShoesId + ".png";
+                    lblPic5.Text = ketQua[i].detailedShoesId;
+                    pbxImage5.BackColor = Color.FromArgb(224, 224, 224);
+                }
+                else
+                {
+                    pbxImage5.Image = null;
+                    lblPic5.Text = "";
+                    pbxImage5.BackColor = Color.Silver;
+                    pbxImage5.Visible = false;
+                }
+                //SetBorder(pbxImage5, lblPic5);
+            }
+            if (i % 6 == 5)
+            {
+                if (i < ketQua.Count)
+                {
+                    pbxImage6.Visible = true;
+                    pbxImage6.ImageLocation = BLL_DuongDan.Instance.ImagePath() + ketQua[i].detailedShoesId + ".png";
+                    lblPic6.Text = ketQua[i].detailedShoesId;
+                    pbxImage6.BackColor = Color.FromArgb(224, 224, 224);
+                }
+                else
+                {
+                    pbxImage6.Image = null;
+                    lblPic6.Text = "";
+                    pbxImage6.BackColor = Color.Silver;
+                    pbxImage6.Visible = false;
+                }
+                //SetBorder(pbxImage6, lblPic6);
+            }
+        }
         private void btn5_5_Click(object sender, EventArgs e)
         {
             SetSizeToList(sender, "5.5");
@@ -287,7 +399,7 @@ namespace ShoesStoreManagement.UI.UI_SanPham
             }
             for (int i = n; i < (n + 6); i++)
             {
-                SetPicBox(i);
+                SetPicBox1(i);
             }
             if (0 <= n || n <= 6)
             {

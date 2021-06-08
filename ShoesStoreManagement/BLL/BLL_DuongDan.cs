@@ -26,7 +26,7 @@ namespace ShoesStoreManagement.BLL
         public string ImagePath()
         {
             // duong dan anh giay
-            return @"C:\Users\Leo\Desktop\DACNPM\Image\";
+            return @"C:\Users\PC\Desktop\DACNPM_Done\DACNPM\Image\";
         }
         public string StaffImagePath()
         {

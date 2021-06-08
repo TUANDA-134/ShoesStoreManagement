@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ShoesStoreManagement.DTO
 {
     public class DTO_NhanVien
-    {
+    {//
         public string StaffId { get; set; }
         public string StaffName { get; set; }
         public string StaffCMND { get; set; }

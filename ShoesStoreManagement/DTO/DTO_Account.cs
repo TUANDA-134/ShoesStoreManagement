@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ShoesStoreManagement.DTO
 {
     public class DTO_Account
-    {
+    {//
         public string Username { get; set; }
         public string Password { get; set; }
         public string AccountId { get; set; }

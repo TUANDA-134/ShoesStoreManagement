@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ShoesStoreManagement.DTO
 {
     class DTO_Shoes
-    {
+    {//
         public string detailShoeId { get; set; }
         public string TenGiay { get; set; }
         //public float Gia { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ShoesStoreManagement.DTO
 {
     class DTO_CBBMaGiay
-    {
+    {//
         public string MaGiay { get; set; }
         public override string ToString()
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ShoesStoreManagement.DTO
 {
     class DTO_LoaiGiayBan
-    {
+    {//
         public string shoesTypeId { get; set; }
         public string shoesType { get; set; }
         public double quantity { get; set; }

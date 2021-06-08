@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ShoesStoreManagement.DTO
 {
     class DTO_DetailBill
-    {
+    {//
         public string detailedillID { get; set; }
         public string billID { get; set; }
         public string detailedShoesID { get; set; }
